@@ -1,0 +1,27 @@
+Problem - Given an array of N integers, and an integer K, find the number of pairs of elements in the array whose sum is equal to K.
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) 
+    {
+        vector<int> output;
+        for(int i = 0; i < nums.size(); i++)
+        {
+            for(int j = i+1; j < nums.size(); j++)\
+            {
+                if((nums[i]+nums[j]) == target)
+                {
+                    output.push_back(i);
+                    output.push_back(j);
+                    return output;
+                }
+            }
+        }   
+    return output;
+    }
+};
+
+
+Performance 
+Runtime 543 ms Beats 34.12%
+Memory 10.3 MB Beats 73.82%
