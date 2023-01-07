@@ -6,3 +6,5 @@
   - Day 4 (04/01/2023)- Move Zeros
   - Day 5 (05/01/2023)- Best Time To Buy and Sell Stock II
   - Day 6 (06/01/2023)- Running Sum of 1d Array
+  - Day 7 (06/01/2023)- Find Pivot Index
+
